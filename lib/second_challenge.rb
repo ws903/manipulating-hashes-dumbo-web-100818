@@ -6,8 +6,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  tot = []
-  groceries.keys
+  # tot = []
+  groceries.values
 
   
 
