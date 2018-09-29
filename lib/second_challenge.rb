@@ -9,7 +9,7 @@ def second_challenge
   tot = []
   groceries.values.each do |each|
     tot.push each
-
+  tot
   
 
 end
