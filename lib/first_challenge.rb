@@ -13,8 +13,8 @@ def first_challenge
     }
   }
 
-  #your code here
-
+  contacts["Freddy Mercury"].values[2].delete_if {|each| each == "strawberry"}
+  contacts  
 
   #remember to return your newly altered contacts hash!
   contacts
