@@ -7,8 +7,8 @@ def second_challenge
   }
 
   tot = []
-  groceries.values.each do |each|
-    tot.push(each)
+  groceries.keys.each do |key|
+    tot.push(groceries[key])
   tot
   
 
